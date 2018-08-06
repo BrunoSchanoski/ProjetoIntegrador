@@ -1,0 +1,35 @@
+body{
+
+ background-color: #3C3939;
+ color: white;
+
+}
+
+/*Acordos da primeira página*/
+
+#acordo{
+
+	font-family: 'Signika', sans-serif;
+	margin-top: 3%;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: justify;
+	width: 50%;
+
+}
+#aceitar{
+
+	font-family: 'Signika', sans-serif;
+	color: white;
+	background-color: #45c8fc;
+	border-radius: 100%;
+	width: 20%;
+	height:2vw;
+
+}
+.modal-body {
+    position: relative;
+    padding: 15px;
+    background-color: #3C3939;
+    color: white;
+}
