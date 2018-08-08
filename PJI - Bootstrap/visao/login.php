@@ -8,18 +8,18 @@
 	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 	<title>Bootstrap 101 Template</title>
 	<!-- Bootstrap -->
-	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="../css/bootstrap.min.css" rel="stylesheet">
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
   <![endif]-->
-  <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.0.min.js"></script>
+  <script type="../text/javascript" src="http://code.jquery.com/jquery-1.10.0.min.js"></script>
   <style>
   	 body{
     font-family: 'Montserrat', sans-serif;
-    background:url("imagem/back_login.jpg"); 
+    background:url("../imagem/back_login.jpg"); 
     background-repeat: no-repeat;
     background-position: right;
     background-size:cover;
@@ -60,7 +60,7 @@
 
 <div style="position:fixed; bottom:5%; left:3%;">
 	<a href="index.php">
-	<img src="imagem/logo.png"></a>
+	<img src="../imagem/logo.png"></a>
 </div>
 
 

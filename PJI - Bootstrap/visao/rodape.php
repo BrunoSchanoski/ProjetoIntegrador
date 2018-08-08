@@ -1,4 +1,4 @@
-<style type="text/css">.blackp{color:black;}</style>
+<style type="../text/css">.blackp{color:black;}</style>
 <div class="container-fluid"style="background-color: white;">
 	<div class="container">
 		<div class="row">
