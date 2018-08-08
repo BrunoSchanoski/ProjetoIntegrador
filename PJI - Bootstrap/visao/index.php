@@ -22,6 +22,13 @@
      text-decoration:none;
      color:gray;
    }
+   #mybtn{
+    background-color:transparent;
+    border:none;
+    color:#9d9d9d;
+    position:relative;
+    bottom:1%;
+   }
    a:hover{
      color:#CCC;
    }
@@ -67,11 +74,74 @@
 					<li><a href="Creators.php">Creators</a></li>
 					<li><a href="#">Forum</a></li>
           <li><a href="#">Pesquisa</a></li>
+          <li><!-- Button trigger modal -->
+  <button type="button" id="mybtn" data-toggle="modal" data-target="#myModal">
+    Restrições
+  </button></li>
+
+
+
+  <div class="modal fade" tabindex="-1" role="dialog" id="myModal">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title"><strong>Contrato...</strong></h4>
+        </div>
+        <div class="modal-body">
+          <!-- Acordos -->
+
+          <div id="acordo">
+
+            <div>
+
+              <h3 class="blackp">Por que ?</h3>
+
+              <strong>
+
+              Temos o objetivo de indicar o site para pessoas que buscam ajuda, porém, não tem afoiteza para encarar um psicólogo frente a frente. Mas não é só para essas pessoas, sabemos que existem um gigante corpo social que se importa com a saúde mental e física alheia, então, faremos um fórum para autoajuda e não será apenas um que irá ajudar, serão vários, até que cliquem em um botão escrito “caso encerrado”.</strong>
+
+              <h3 class="blackp">Para quem?</h3>
+
+              <strong>
+
+                Desenvolveremos o site para aquelas pessoas que querem ajuda em casos de depressões e derivados, concomitantemente aqueles que querem ajudar o próximo.
+
+              </strong>
+
+            </div>
+            <br>
+            <div>
+
+              <h3 class="blackp">Contrato ...</h3>
+
+              <strong>
+
+                Para que desfrute deste recurso, pedimos ao usuário que respeitem as pessoas e não as façam se sentir mal. Você encontrará pessoas que estão sofrendo e que podem achar em <em>você</em> uma luz.
+                Seja essa luz para elas e não as machuque, se você achar que não tem experiência o suficiente para ajudar, pode falar o que realmente sente.
+                Se você sofre e tem medo de se abrir, saiba que ninguém terá acesso a qualquer informação pessoal sua, contanto que, a grosso modo, você não os dê. Caso algum sujeito desrespeitar essa regra será sujeito a banimento do IP da rede.
+
+              </strong>
+
+            </div>
+          </div>
+
+          <img src="../imagem/if help.png" alt="Logo" style="
+          width: 20%;
+          ">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Aceitar</button>
+        </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
 					<li><a href="login.php">Logar</a></li>
 				</ul>
 			</div>
 		</div>
 	</nav>
+
   <div id="cont1">	
    <div class="container-fluid">
     <div class="container">
