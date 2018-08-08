@@ -15,7 +15,7 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.0.min.js"></script>
+    <script type="../text/javascript" src="http://code.jquery.com/jquery-1.10.0.min.js"></script>
     <style>
     @import url('https://fonts.googleapis.com/css?family=Montserrat');
     a:link, a:visited{
@@ -30,7 +30,7 @@
     font-family: 'Montserrat', sans-serif;
   }
   #cont1{
-   background-image: url('imagem/back2.jpg');
+   background-image: url('../imagem/back2.jpg');
    background-repeat: no-repeat;
    background-size:100%;
    background-size: cover;
@@ -75,7 +75,7 @@
   <div id="cont1">	
    <div class="container-fluid">
     <div class="container">
-     <img style="position:relative;left: 0" src="imagem/logo.png">
+     <img style="position:relative;left: 0" src="../imagem/logo.png">
      <div class="row">
 
       <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6" style="margin-top:5%; margin-left:-5%;">
@@ -85,7 +85,6 @@
    </div>
  </div>
 </div>
-<<<<<<< HEAD
 <div class="container-fluid">
   <div class="container">
    <div class="row">
@@ -111,7 +110,7 @@
       <p class="blackp">A depressão é considerada uma das principais causadoras de incapacitação, limita o funcionamento físico, pessoal e social. Praticamente ninguém recebe o devido tratamento e, às vezes, a forma que a sociedade identifica o problema não é correta, faz com que o paciente não consiga obter ajuda (PELUSO e BLAY, 2007) por achar que é um problema insignificante. Através de pesquisas percebe-se que, o problema da depressão não é algo recente.</p>
       <p class="blackp">Dando, ainda, um foco na faixa etária juvenil, podemos pelas estatísticas, perceber uma grande possibilidade de passar por esse quadro. O corpo na adolescência passa por mudanças e consequentemente acarretam a uma adaptação, social e psíquica, mas nem todos passam pelas mesmas situações ou conseguem passar por elas saudavelmente “não tendo mais uma representação de si mesmo, uma vez que sua nova imagem ainda se encontra em construção”(BIAZUS; RAMIRES, 2012 p. 84 grifo nosso.)</p>
     </div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-  <embed style="margin-left:2%;" src="video.mp4" autoplay="true" fullscrren="true" height="220" width="560" />
+  <embed style="margin-left:2%;" src="../imagem/video.mp4" autoplay="true" fullscrren="true" height="220" width="560" />
      <center><h4 class="blackp">Gostou? Assita mais <a href="https://www.youtube.com/user/MOVAFILMES">aqui</a></h4></center>
     </body>
     </html>
@@ -149,14 +148,13 @@ include'rodape.php'
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="js/bootstrap.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
 </body>
 </html>
-=======
+
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
-	<script src="js/bootstrap.min.js"></script>
+	<script src="../js/bootstrap.min.js"></script>
 </body>
 </html>
->>>>>>> c587608bf430d5f0668449dc9ff5d227b7572239
