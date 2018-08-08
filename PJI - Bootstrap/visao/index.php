@@ -75,10 +75,9 @@
 					<li><a href="Creators.php">Creators</a></li>
 					<li><a href="#">Forum</a></li>
           <li><a href="#">Pesquisa</a></li>
-          <li><!-- Button trigger modal -->
-  <button type="button" id="mybtn" data-toggle="modal" data-target="#myModal">
-    Restrições
-  </button></li>
+          <li><a href="login.php">Logar</a></li>
+          <li><!-- Button trigger modal --> 
+            <button type="button" id="mybtn" data-toggle="modal" data-target="#myModal"> Restrições </button></li>
 
 
 
@@ -137,7 +136,7 @@
       </div><!-- /.modal-content -->
     </div><!-- /.modal-dialog -->
   </div><!-- /.modal -->
-					<li><a href="login.php">Logar</a></li>
+					
 				</ul>
 			</div>
 		</div>
