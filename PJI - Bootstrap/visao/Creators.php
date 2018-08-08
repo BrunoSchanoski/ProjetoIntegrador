@@ -8,14 +8,14 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Bootstrap 101 Template</title>
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
   <![endif]-->
-  <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.0.min.js"></script>
+  <script type="../text/javascript" src="http://code.jquery.com/jquery-1.10.0.min.js"></script>
   <style>
    @import url('https://fonts.googleapis.com/css?family=Montserrat');
   body{
@@ -63,7 +63,7 @@ p,h3{
     <center>
         <div class="container">
           <div id="criado" class="page-header">
-            <img src="imagem/logo.png">
+            <img src="../imagem/logo.png">
             <h3 class="blackp"><center>Criadores / Creators</center></h3>
             
         </div>
@@ -76,19 +76,19 @@ p,h3{
         </ol>
         <div class="carousel-inner" role="listbox">
             <div class="item active">
-                <img src="imagem/brunin.jpg" alt="Bruno Schanoski">
+                <img src="../imagem/brunin.jpg" alt="Bruno Schanoski">
                 <div class="carousel-caption">
                     Bruno Schanoski
                 </div>
             </div>
             <div class="item">
-                <img src="imagem/jhonley.jpg" alt="Jhonley Carriel">
+                <img src="../imagem/jhonley.jpg" alt="Jhonley Carriel">
                 <div class="carousel-caption">
                     Jhonley Carriel
                 </div>
             </div>
             <div class="item">
-                <img src="imagem/raul.jpg" alt="Raul Rodrigues">
+                <img src="../imagem/raul.jpg" alt="Raul Rodrigues">
                 <div class="carousel-caption">
                     Raul Rodrigues
                 </div>
@@ -146,6 +146,6 @@ include 'rodape.php';
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="js/bootstrap.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
 </body>
 </html>

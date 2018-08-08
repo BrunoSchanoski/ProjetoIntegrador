@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-
->>>>>>> c587608bf430d5f0668449dc9ff5d227b7572239
 <!DOCTYPE html>
 <html>
 <head>
@@ -12,7 +8,7 @@
 	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 	<title>Bootstrap 101 Template</title>
 	<!-- Bootstrap -->
-	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="../css/bootstrap.min.css" rel="stylesheet">
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
