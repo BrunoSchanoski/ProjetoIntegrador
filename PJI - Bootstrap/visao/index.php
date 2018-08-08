@@ -33,6 +33,7 @@
    background-image: url('../imagem/back2.jpg');
    background-repeat: no-repeat;
    background-size:100%;
+   padding-bottom: 8%;
    background-size: cover;
    margin-top:-2%;
    border:solid gray 1px;
